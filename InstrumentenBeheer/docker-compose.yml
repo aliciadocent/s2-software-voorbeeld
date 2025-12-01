@@ -1,0 +1,6 @@
+﻿services:
+  instrumentenbeheer:
+    image: instrumentenbeheer
+    build:
+      context: .
+      dockerfile: InstrumentenBeheer/Dockerfile

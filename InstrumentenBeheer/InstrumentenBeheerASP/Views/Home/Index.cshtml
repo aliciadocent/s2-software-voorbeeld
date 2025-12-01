@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var instrument in Model.Instruments)
+        {
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@instrument.Serienummer</h5>
+                    <p class="card-text">@instrument.Type</p>
+                    <p class="card-text">@instrument.Merk</p>
+                    <p class="card-text">@instrument.Status</p>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+    
+</div>
