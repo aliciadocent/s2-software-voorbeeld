@@ -1,0 +1,76 @@
+####################################
+# Algemene OS-bestanden
+####################################
+.DS_Store
+Thumbs.db
+
+####################################
+# Visual Studio / Rider / VS Code
+####################################
+.vs/
+.vscode/
+.idea/
+
+####################################
+# Build resultaten
+####################################
+bin/
+obj/
+out/
+
+####################################
+# .NET / ASP.NET
+####################################
+*.user
+*.suo
+*.cache
+*.log
+
+####################################
+# NuGet
+####################################
+packages/
+*.nupkg
+.nuget/
+
+####################################
+# Publish / Deploy
+####################################
+publish/
+wwwroot/lib/
+
+####################################
+# Secrets & lokale instellingen
+####################################
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+####################################
+# Test result / coverage
+####################################
+TestResults/
+coverage/
+*.trx
+
+####################################
+# Docker (indien van toepassing)
+####################################
+docker-compose.override.yml
+
+####################################
+# Node (indien frontend ooit toegevoegd wordt)
+####################################
+node_modules/
+
+####################################
+# Tijdelijke bestanden
+####################################
+*.tmp
+*.bak
+*.swp
+
+####################################
+# Documentatie bewust NIET uitsluiten
+####################################
+# /Documentatie wordt dus wél gewoon gecommit ✅
