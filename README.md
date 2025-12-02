@@ -42,7 +42,7 @@ Dit document bevat:
 
 -   ✅ Inleiding
 -   ✅ Domeinmodel
--   ✅ Klassendiagram -> nog doen
+-   ✅ Klassendiagram
 -   ✅ Databasemodel
 
 ## ✅ Leeruitkomst 3 -- Development (LU3)
