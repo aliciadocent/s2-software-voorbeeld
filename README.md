@@ -66,7 +66,7 @@ van je code te verbeteren.
 -   ✅ Acceptatietesten
 -   ✅ Testplan
 -   ✅ Testmatrix
--   ✅ Unit testen -> nog doen
+-   ✅ Unit testen (arrange, act, assert)
 
 ## 📂 Structuur van de repository
 
@@ -80,6 +80,7 @@ van je code te verbeteren.
   └── DAL
   └── Logic
   └── Interface
+  └── Unittests
 
 README.md
 .gitignore
